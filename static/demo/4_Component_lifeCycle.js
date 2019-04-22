@@ -5,7 +5,8 @@ import "./App.css";
 class Clock extends Component {
   constructor(props) {
     super(props);
-    this.state = { date: new Date(), title: "This is Clock" };
+    this.state = { date: new Date() };
+    console.log(this.state)
   }
   componentDidMount() {
     this.timer = setInterval(() => {
@@ -18,19 +19,10 @@ class Clock extends Component {
   render() {
     return (
       <div>
-        <h1>{this.state.title}</h1>
+        <h1>This is Clock</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}</h2>
-        <button onClick={this.changeTitle.bind(this)} type="button">
-          click
-        </button>
       </div>
     );
-  }
-
-  changeTitle() {
-    this.setState({
-      title: "change title"
-    });
   }
 
   tick() {
