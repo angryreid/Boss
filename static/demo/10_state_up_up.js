@@ -20,7 +20,7 @@ function BoilingVerdict(props) {
 }
 
 function toCelsius(fahrenheit) {
-  return (fahrenheit - 32) / 9;
+  return (fahrenheit - 32) / 1.8;
 }
 
 function toFahrenheit(celsius) {
