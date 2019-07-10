@@ -42,8 +42,8 @@ class Hello extends Component {
   }
   componentWillMount() {
     let today = utils.getDate(new Date().getTime(), "month");
-    let todayObj = JSON.parse(localStorage.getItem(today));
-    if (!!todayObj) {
+    if (!!localStorage.getItem(today)) {
+      let todayObj = JSON.parse(localStorage.getItem(today));
       this.setState({
         is_clickable: false,
         start_time: todayObj.start_time,
@@ -67,6 +67,7 @@ class Hello extends Component {
     const remian_time =
       new Date().getTime() + 8.5 * 60 * 60 * 1000 - new Date().getTime();
     this.setState({
+      is_clickable: false,
       start_time: start_time,
       home_time: home_time,
       remain_time: remian_time
@@ -118,8 +119,8 @@ class Hello extends Component {
     });
   }
   clearCountDown(cb) {
-    if (this.interval) {
-      window.clearInterval(this.interval);
+    if (this.state.interval) {
+      window.clearInterval(this.state.interval);
       cb && cb();
     }
   }
