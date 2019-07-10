@@ -1,3 +1,4 @@
+/* base */
 .App {
   text-align: center;
 }
@@ -19,14 +20,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .coding-area {
   background-color: #404343;
   padding: 2vmin;
   border-radius: 2vmin;
+  width: 90vw;
 }
 
 @keyframes App-logo-spin {
@@ -36,4 +34,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* work time */
+.work-time-btn-box{
+  margin: 20px auto;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+.work-time-btn{
+  display: inline-block;
+  font-size: calc(10px + 2vmin);
+  font-stretch: 100%;
+  font-weight: 500;
+  border:1px solid #3f51b5;
+  color: white;
+  border-radius: 2rem;
+  width: 20vw;
+}
+
+.work-time-hr{
+  display: block;
+  width: 50vw;
+}
+
+.active{
+  border-color: #ff4081;
 }
