@@ -1,0 +1,15 @@
+.input {
+  border: 3px solid #ae7000;
+}
+
+.show{
+  color: #ffffff;
+  opacity: 1;
+  transition: all 1.5s ease-in;
+}
+
+.hide{
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s ease-in;
+}

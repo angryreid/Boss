@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+import Xiaojiejie from "./components/Xiaojiejie";
 
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="coding-area">
-            jjj
+            <Xiaojiejie />
           </div>
         </header>
       </div>
