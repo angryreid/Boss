@@ -9,7 +9,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
