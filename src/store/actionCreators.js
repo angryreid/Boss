@@ -1,0 +1,10 @@
+import { INPUT_CHANGE, ADD_ITEM } from './actionTypes';
+
+export const inputChangeAction = (value) => ({
+  type: INPUT_CHANGE,
+  value
+})
+
+export const addItemAction = () => ({
+  type: ADD_ITEM
+})
