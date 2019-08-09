@@ -45,6 +45,9 @@ const dispatchToProps = dispatch => {
   };
 };
 
+
+// 大型项目可以拆分stateToProps
+// 大型项目可以拆分dispatchToProps
 export default connect(
   stateToProps,
   dispatchToProps
