@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Xiaojiejie from "./components/Xiaojiejie";
 
 import "./App.css";
 
@@ -9,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="coding-area">
-            <Xiaojiejie />
+           
           </div>
         </header>
       </div>
