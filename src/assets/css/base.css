@@ -1,0 +1,161 @@
+/*********设计图是750的设置************/
+@media screen and (min-width: 320px) {html{font-size:266.667%!important;}}
+@media screen and (min-width: 360px) {html{font-size:300%!important;}}
+@media screen and (min-width: 375px) {html{font-size:312.5%!important;}}
+@media screen and (min-width: 400px) {html{font-size:333.333%!important;}}
+@media screen and (min-width: 440px) {html{font-size:366.667%!important;}}
+@media screen and (min-width: 480px) {html{font-size:400%!important;}}
+@media screen and (min-width: 520px) {html{font-size:433.333%!important;}}
+@media screen and (min-width: 560px) {html{font-size:541.667%!important;}}
+@media screen and (min-width: 600px) {html{font-size:500%!important;}}
+@media screen and (min-width: 640px) {html{font-size:533.333%!important;}}
+@media screen and (min-width: 680px) {html{font-size:566.667%!important;}}
+@media screen and (min-width: 720px) {html{font-size:600%!important;}}
+@media screen and (min-width: 750px) {html{font-size:625%!important;}}
+@media screen and (min-width: 760px) {html{font-size:633.333%!important;}}
+@media screen and (min-width: 800px) {html{font-size:666.667%!important;}}
+@media screen and (min-width: 960px) {html{font-size:800%!important;}}
+@media screen and (min-width: 1136px) {html{font-size:946.667%!important;}}
+@media screen and (min-width: 1334px) {html{font-size:1111.667%!important;}}
+@media screen and (min-width: 1920px) {html{font-size:1600%!important;}}
+/*********设计图是750的设置************/
+
+
+/*********设计图是640的设置************/
+// @media screen and (min-width: 320px) {html{font-size:312.5%!important;}}
+// @media screen and (min-width: 360px) {html{font-size:351.5625%!important;}}
+// @media screen and (min-width: 375px) {html{font-size:366.211%!important;}}
+// @media screen and (min-width: 400px) {html{font-size:390.625%!important;}}
+// @media screen and (min-width: 440px) {html{font-size:429.6875%!important;}}
+// @media screen and (min-width: 480px) {html{font-size:468.75%!important;}}
+// @media screen and (min-width: 520px) {html{font-size:507.8125%!important;}}
+// @media screen and (min-width: 560px) {html{font-size:546.875%!important;}}
+// @media screen and (min-width: 600px) {html{font-size:585.9375%!important;}}
+// @media screen and (min-width: 640px) {html{font-size:625%!important;}}
+// @media screen and (min-width: 680px) {html{font-size:664.0625%!important;}}
+// @media screen and (min-width: 720px) {html{font-size:703.125%!important;}}
+// @media screen and (min-width: 750px) {html{font-size:732.422%!important;}}
+// @media screen and (min-width: 760px) {html{font-size:742.1875%!important;}}
+// @media screen and (min-width: 800px) {html{font-size:781.25%!important;}}
+// @media screen and (min-width: 960px) {html{font-size:937.5%!important;}}
+// @media screen and (min-width: 1136px) {html{font-size:1109.375%!important;}}
+// @media screen and (min-width: 1334px) {html{font-size:1302.734375%!important;}}
+// @media screen and (min-width: 1920px) {html{font-size:1875%!important;}}
+/*********设计图是640的设置************/
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -moz-touch-callout: none;
+  -ms-touch-callout: none;
+  touch-callout: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+}
+body {
+  -webkit-overflow-scrolling:touch;
+}
+
+.mt-tiny {
+  margin-top:5px;
+}
+.mt-short {
+  margin-top:10px;
+}
+.mt-long {
+  margin-top:15px;
+}
+.mt-large {
+  margin-top:20px;
+}
+.mt-grand {
+  margin-top:30px;
+}
+.ml-tiny {
+  margin-left:5px;
+}
+.ml-short {
+  margin-left:10px;
+}
+.ml-long {
+  margin-left:15px;
+}
+.ml-large {
+  margin-left:20px;
+}
+.ml-grand {
+  margin-left:30px;
+}
+.mr-tiny {
+  margin-right:5px;
+}
+.mr-short {
+  margin-right:10px;
+}
+.mr-long {
+  margin-right:15px;
+}
+.mr-large {
+  margin-right:20px;
+}
+.mr-grand {
+  margin-right:30px;
+}
+.mb-tiny {
+  margin-bottom:5px;
+}
+.mb-short {
+  margin-bottom:10px;
+}
+.mb-long {
+  margin-bottom:15px;
+}
+.mb-large {
+  margin-bottom:20px;
+}
+.mb-grand {
+  margin-bottom:30px;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+}
+.clear {
+  clear:both;
+  height:0;
+  overflow:hidden;
+}
+.clearfix:after {
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+.clearfix {
+  zoom:1;
+}
+
+body,html {
+  background:#ffffff!important;
+  color:#333333;
+}
+
+
+button{
+  border:0 none;
+}
