@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+
+import "./Head.less";
+
+
 class Head extends Component {
   constructor(props) {
     super(props);
